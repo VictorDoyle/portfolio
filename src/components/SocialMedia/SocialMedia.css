@@ -1,0 +1,32 @@
+a {
+    color: black  !important;
+  }
+
+
+a:hover {
+    color: hotpink  !important;
+  }
+
+  /* stick */
+.verticalLine {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: 60px ;
+    background-color: black
+}
+
+.socialMediaIcons {
+    display: block;
+    width: 1px;
+    height: 16px;
+    margin: 45px ;
+    
+}
+
+.socialIconsContainer {
+    position: sticky;
+    float: left;
+    z-index: 30;
+}
