@@ -31,6 +31,18 @@ function Navbar () {
         </Menu.Item>
         </Link>
 
+        
+        <Link to={'/resume'}> 
+        <Menu.Item
+        
+          name='resume'
+          active={activeItem === 'resume'}
+          onClick={handleItemClick}
+        >
+          Resume
+        </Menu.Item>
+        </Link>
+
 
 
         <Link to={'/projects'}> 
