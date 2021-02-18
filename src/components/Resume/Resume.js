@@ -11,7 +11,7 @@ function Resume () {
     return(
         <>
   <Container text className="aboutSection" id="about"> 
-    <Header as='h3'>Where I've Worked</Header>
+    <Header as='h2'>Where I've Worked <hr/></Header>
   
     <Menu pointing secondary vertical>
         <Menu.Item

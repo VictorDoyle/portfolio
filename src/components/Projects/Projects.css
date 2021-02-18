@@ -3,3 +3,7 @@
     max-width: 1000px;
     min-height: 100vh;
 }
+
+.projectShow {
+    padding-bottom: 55px !important;
+}

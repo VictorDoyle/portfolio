@@ -10,7 +10,7 @@ function About () {
         <>
       
 <Container text className="resumeSection"> 
-<Header as='h3'>About Me</Header>
+<Header as='h2'>About Me <hr/></Header>
 <p>Hello! I'm Victor, a software engineer based in New York City, NY.</p>
 
 <p>I enjoy creating applications and websites and love to implement my personal approach to design, innovation and creativity. My goal is to always push the boundaries beyond their capabilities and to create the future. In terms of Software Engineering, Scalability, Performance and Design are of the utmost importance to me. </p>
