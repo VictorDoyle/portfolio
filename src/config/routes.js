@@ -2,7 +2,6 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 /* pages */
-
 import Homepage from '../pages/Homepage'
 
 
