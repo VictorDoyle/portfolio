@@ -5,7 +5,8 @@ import './SocialMedia.css'
 
 
 const SocialMedia = () => (
-  
+  <>
+  {/* left sidebar social media icon list */}
   <List className="socialIconsContainer">
     <List.Item  className="socialMediaIcons">
     <a href="https://www.linkedin.com/in/victor-doyle/">
@@ -28,8 +29,20 @@ const SocialMedia = () => (
       <List.Icon name='codepen' size="big"/>
         </a>
     </List.Item>
-    <div className="verticalLine"></div>
+    <div className="verticalLineLeft"></div>
   </List>
+
+  {/* right side bar with email address */}
+
+  <List className="socialEmailContainer">
+    <List.Item  className="socialEmailText">
+    <a href="https://www.linkedin.com/in/victor-doyle/">
+      <p> victor-doyle@outlook.com </p>
+        </a>
+    </List.Item>
+    <div className="verticalLineRight"></div>
+  </List>
+  </>
 )
 
 export default SocialMedia

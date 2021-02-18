@@ -8,13 +8,22 @@ a:hover {
   }
 
   /* stick */
-.verticalLine {
+.verticalLineLeft {
     content: "";
     display: block;
     width: 1px;
     height: 100px;
     margin: 60px ;
     background-color: black
+}
+
+.verticalLineRight {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  margin: 60px ;
+  background-color: black
 }
 
 .socialMediaIcons {
@@ -30,3 +39,24 @@ a:hover {
     float: left;
     z-index: 30;
 }
+
+.socialEmailContainer {
+  position: sticky;
+    float: right;
+    z-index: 30;
+}
+
+.socialEmailText  {
+  display: block;
+  width: 60px;
+  height: 160px;
+  margin: 45px ;
+}
+
+.socialEmailText p {
+  height: 200px;
+  margin: 8px;
+  writing-mode: vertical-rl;
+  text-orientation:sideways-right;
+}
+
