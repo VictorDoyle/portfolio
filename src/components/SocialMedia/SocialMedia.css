@@ -81,7 +81,11 @@
 .socialEmailText p {
   height: 200px;
   margin: 8px;
+  color: #2E9CCA;
   writing-mode: vertical-rl;
   text-orientation:sideways-right;
 }
 
+.socialEmailText p:hover {
+  color: #85d2f4;
+}
