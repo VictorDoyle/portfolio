@@ -4,7 +4,7 @@
     width: 1px;
     height: 100px;
     margin: 60px ;
-    background-color: black
+    background-color: #2E9CCA 
 }
 
 .verticalLineRight {
@@ -13,7 +13,7 @@
   width: 1px;
   height: 100px;
   margin: 60px ;
-  background-color: black
+  background-color: #2E9CCA 
 }
 
 .socialMediaIcons {
@@ -23,11 +23,7 @@
     margin: 45px ;
 }
 
-/* .socialMediaIcons a {
-  color: #2E9CCA 
-} */
 
-/* new test */
 
 .socialMediaIcons {
   color: #2E9CCA ;

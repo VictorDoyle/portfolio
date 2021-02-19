@@ -3,3 +3,13 @@
     max-width: 1000px;
     min-height: 100vh;
 }
+
+.aboutHeader {
+    color: white;
+}
+
+.tabContent {
+    background-color: #0f1e39 !important;
+    color: white;
+    border: none !important;
+}
