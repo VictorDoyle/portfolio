@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Icon, Header, Grid, Container } from 'semantic-ui-react'
+import { Icon, Header, Grid, Container, Segment,Divider } from 'semantic-ui-react'
 import './About.css'
 
 
@@ -18,21 +18,35 @@ function About () {
 <p> I have a vast background in Innovation and building Projects from the ground-up. Shortly after graduating from General Assembly's Software Engineering Immersive, I began building a variety of websites ranging from Art &amp; Design Websites to Innovative Social Media Applications.</p>
 
 <p>Here are a few technologies I've been working with recently:</p>
-{/* FIXME: fix styling */}
-    <div className="techUsedOne"> 
-        <Icon name="">   React &amp; JavaScript </Icon>
-        <Icon name="">   HTML &amp; CSS</Icon>
-        <Icon name="">   Python</Icon>
+
+    <Grid columns={2} relaxed='very'>
+      <Grid.Column>
+      <div className="techUsedOne"> 
+        <Icon name="react " color="yellow" size="big"/>   React &amp; JavaScript
+        <br/>
+        <br/>
+        <Icon name="html5" color="yellow" size="big"/>   HTML &amp; CSS
+        <br/>
+        <br/>
+        <Icon name="python " color="yellow" size="big"/>   Python
+        <br/>
+        <br/>
     </div>
-
-    <div className="techUsedTwo"> 
-        <Icon name="">   Node.js</Icon>
-        <Icon name="">   Django</Icon>
-        <Icon name="">   MongoDB &amp; Prisma </Icon>
+      </Grid.Column>
+      <Grid.Column>
+      <div className="techUsedTwo"> 
+        <Icon name="node js  " color="yellow" size="big"/>   Node.js
+        <br/>
+        <br/>
+        <Icon name="diamond " color="yellow" size="big"/>   Django
+        <br/>
+        <br/>
+        <Icon name="database" color="yellow" size="big"/>   MongoDB &amp; Prisma 
     </div>
+      </Grid.Column>
+    </Grid>
 
-
-   
+  
 
 
 </Container>
