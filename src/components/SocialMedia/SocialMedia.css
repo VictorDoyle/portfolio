@@ -1,13 +1,3 @@
-a {
-    color: black  !important;
-  }
-
-
-a:hover {
-    color: hotpink  !important;
-  }
-
-  /* stick */
 .verticalLineLeft {
     content: "";
     display: block;
@@ -31,19 +21,56 @@ a:hover {
     width: 1px;
     height: 16px;
     margin: 45px ;
-    
 }
+
+/* .socialMediaIcons a {
+  color: #2E9CCA 
+} */
+
+/* new test */
+
+.socialMediaIcons {
+  color: #2E9CCA ;
+  -webkit-transform: perspective(3px) translateZ(0);
+  transform: perspective(3px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.socialMediaIcons a:hover{
+  color: #61bce3 !important ;
+}
+
+.socialMediaIcons:hover {
+  -webkit-transform: scale(1.3) translateZ(0);
+  transform: scale(1.3) translateZ(0);
+
+}
+
 
 .socialIconsContainer {
     position: sticky;
     float: left;
     z-index: 30;
+    top:  517px;
+    bottom: 10px;
 }
 
 .socialEmailContainer {
-  position: sticky;
+    position: sticky;
     float: right;
     z-index: 30;
+    top: 556px;
+    bottom: 10px;
 }
 
 .socialEmailText  {

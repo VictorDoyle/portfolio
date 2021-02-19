@@ -6,12 +6,20 @@
 
 .heroText1 {
     font-size: 20px  !important;
+    color:rgb(205, 205, 205) !important;
+    padding-bottom: 50px;
 }
 
 .heroText2 {
     font-size: 80px  !important;
+    color:whitesmoke !important;
 }
 
 .heroText3 {
-    font-size: 25px  !important;
+    font-size: 45px  !important;
+    color:rgb(205, 205, 205) !important;
+}
+
+.emailMeButton {
+    color: #AAABB8 !important;
 }

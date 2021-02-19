@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Menu, Header, Dropdown, Container } from 'semantic-ui-react'
+import { Icon, Header, Grid, Container } from 'semantic-ui-react'
 import './About.css'
 
 
@@ -18,18 +18,21 @@ function About () {
 <p> I have a vast background in Innovation and building Projects from the ground-up. Shortly after graduating from General Assembly's Software Engineering Immersive, I began building a variety of websites ranging from Art &amp; Design Websites to Innovative Social Media Applications.</p>
 
 <p>Here are a few technologies I've been working with recently:</p>
+{/* FIXME: fix styling */}
+    <div className="techUsedOne"> 
+        <Icon name="">   React &amp; JavaScript </Icon>
+        <Icon name="">   HTML &amp; CSS</Icon>
+        <Icon name="">   Python</Icon>
+    </div>
 
-<ul class="skills-list">
-    <li>JavaScript</li>
-    <li>HTML &amp; CSS</li>
-    <li>React</li>
-    <li>Python</li>
-    <li>Node.js</li>
-    <li>Django</li>
-    <li>MongoDB &amp; Prisma</li>
-    
-</ul>
+    <div className="techUsedTwo"> 
+        <Icon name="">   Node.js</Icon>
+        <Icon name="">   Django</Icon>
+        <Icon name="">   MongoDB &amp; Prisma </Icon>
+    </div>
 
+
+   
 
 
 </Container>

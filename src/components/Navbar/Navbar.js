@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Icon, Menu } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
+import "./Navbar.css"
 
 function Navbar () {
     const [activeItem, setActiveItem] = useState("home")
@@ -11,18 +12,18 @@ function Navbar () {
     return(
         <>
 
-    <Menu stackable secondary size="huge">
+    <Menu stackable secondary size="huge" className="navBar">
 
-      <Link to={'/'}> 
+      <Link to={'/'}  className="navBarLink"> 
         <Menu.Item position="left">
-          <Icon name="grav" size="huge"/>
+          <Icon name="grav" size="huge" className="navBarItem"/>
         </Menu.Item>
         </Link>
 
         <Menu.Menu position='right'> 
         <Link to={'/about'}> 
         <Menu.Item
-        
+          className="navBarItem"
           name='about'
           active={activeItem === 'about'}
           onClick={handleItemClick}
@@ -32,9 +33,10 @@ function Navbar () {
         </Link>
 
         
-        <Link to={'/resume'}> 
+        <Link to={'/resume'} > 
         <Menu.Item
-        
+          
+          className="navBarItem"
           name='resume'
           active={activeItem === 'resume'}
           onClick={handleItemClick}
@@ -45,8 +47,9 @@ function Navbar () {
 
 
 
-        <Link to={'/projects'}> 
+        <Link to={'/projects'} > 
         <Menu.Item
+          className="navBarItem"
           name='projects'
           active={activeItem === 'projects'}
           onClick={handleItemClick}
@@ -57,6 +60,7 @@ function Navbar () {
 
         <Link to={'/contact'}> 
         <Menu.Item
+          className="navBarItem"
           name='contact'
           active={activeItem === 'contact'}
           onClick={handleItemClick}

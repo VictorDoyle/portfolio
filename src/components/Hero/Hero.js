@@ -11,10 +11,10 @@ const Hero = () => (
     <Header className="heroText2"> Victor Doyle. </Header>
     <Header className="heroText3"> I Build Full Stack Applications. </Header>
     <p className="heroText1">
-    I'm a software engineer based in New York City, specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
+    I'm a software engineer based in New York City, specializing in building and designing unique websites and applications.
     </p>
     <a href="mailto:victor-doyle@outlook.com">
-    <Button color='blue'>
+    <Button className="emailMeButton">
         Get In Touch  
     </Button>
     </a>
