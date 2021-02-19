@@ -1,9 +1,14 @@
 .projectSection {
     padding: 100px 0px;
-    max-width: 1000px;
+    max-width: 1800px;
+    min-width: 65% !important;
     min-height: 100vh;
 }
 
 .projectShow {
     padding-bottom: 55px !important;
+}
+
+.projectsHeader {
+    color: white !important;
 }
