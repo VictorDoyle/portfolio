@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Icon, Menu } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
+/* styling */
 import "./Navbar.css"
 
 function Navbar () {
@@ -24,6 +25,7 @@ function Navbar () {
         <Link to={'/about'}> 
         <Menu.Item
           className="navBarItem"
+          onClick={() => this.scrollTo()}
           name='about'
           active={activeItem === 'about'}
           onClick={handleItemClick}
@@ -31,6 +33,7 @@ function Navbar () {
           About
         </Menu.Item>
         </Link>
+        
 
         
         <Link to={'/resume'} > 
