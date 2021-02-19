@@ -13,3 +13,17 @@
     color: white;
     border: none !important;
 }
+
+.ui.vertical.tabular.menu .active.item {
+    background: none !important;
+    color: #2E9CCA !important;
+    border-color: #2E9CCA !important;
+}
+
+.ui.vertical.tabular.menu .item {
+    color: white;
+}
+
+.ui.vertical.tabular.menu .item:hover {
+    color: #2E9CCA !important;
+}
