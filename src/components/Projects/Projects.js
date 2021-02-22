@@ -19,7 +19,7 @@ function Projects () {
         <p> An Interactive Website made to heighten the overall experience of listening to Space-22's Albums. Utilizing Jquery and JavaScript animations, visuals were queued to each specific musical composition. </p>
         </Grid.Column>
         <Grid.Column width={6}>
-        <Image rounded src='../../images/portfolioItem1.png' />
+        <Image rounded src='https://github.com/VictorDoyle/portfolio/blob/master/src/images/portfolioItem1.png?raw=true' />
         </Grid.Column>
         <Grid.Column width={6}>
             <p> Tech Stack:</p>

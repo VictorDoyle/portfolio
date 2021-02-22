@@ -25,10 +25,10 @@ function Navbar () {
         <Link to={'/about'}> 
         <Menu.Item
           className="navBarItem"
-          onClick={() => this.scrollTo()}
           name='about'
           active={activeItem === 'about'}
           onClick={handleItemClick}
+          
         >
           About
         </Menu.Item>

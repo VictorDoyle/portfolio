@@ -9,7 +9,7 @@ function About () {
     return(
         <>
       
-<Container text className="resumeSection"> 
+<Container text className="resumeSection" > 
 <Header > <h2 className="aboutHeader"> About Me</h2><hr/></Header>
 <p>Hello! I'm Victor, a software engineer based in New York City, NY.</p>
 
