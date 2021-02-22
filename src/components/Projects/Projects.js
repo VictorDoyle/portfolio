@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Grid, Header, Progress, Rail, Image,Container, Icon } from 'semantic-ui-react'
 import './Projects.css'
+import '../../images/portfolioItem1.png'
 
 function Projects () {
     
@@ -18,7 +19,7 @@ function Projects () {
         <p> An Interactive Website made to heighten the overall experience of listening to Space-22's Albums. Utilizing Jquery and JavaScript animations, visuals were queued to each specific musical composition. </p>
         </Grid.Column>
         <Grid.Column width={6}>
-        <Image rounded src='https://m.media-amazon.com/images/I/91a-zJPR6UL._SS500_.jpg' />
+        <Image rounded src='../../images/portfolioItem1.png' />
         </Grid.Column>
         <Grid.Column width={6}>
             <p> Tech Stack:</p>
