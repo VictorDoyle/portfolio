@@ -1,16 +1,12 @@
-import React, {useState} from 'react'
-import { Icon, Header, Grid, Container, Segment,Divider } from 'semantic-ui-react'
+import React from "react";
+import { Icon, Header, Grid, Container, Menu,Divider } from 'semantic-ui-react'
+
 import './About.css'
-
-
-function About () {
-    
-  
+function About() {
     return(
         <>
-      
-<Container text className="resumeSection" > 
-<Header > <h2 className="aboutHeader"> About Me</h2><hr/></Header>
+        <Container text className="resumeSection" > 
+<Header > <h2 className="aboutHeader" id="section2Content" > About Me</h2><hr/></Header>
 <p>Hello! I'm Victor, a software engineer based in New York City, NY.</p>
 
 <p>I enjoy creating applications and websites and love to implement my personal approach to design, innovation and creativity. My goal is to always push the boundaries beyond their capabilities and to create the future. In terms of Software Engineering, Scalability, Performance and Design are of the utmost importance to me. </p>
@@ -31,6 +27,9 @@ function About () {
         <Icon name="python " color="yellow" size="big"/>   Python
         <br/>
         <br/>
+        <Icon name="object group " color="yellow" size="big"/>   Adobe/UX/UI
+        <br/>
+        <br/>
     </div>
       </Grid.Column>
       <Grid.Column>
@@ -41,7 +40,12 @@ function About () {
         <Icon name="diamond " color="yellow" size="big"/>   Django
         <br/>
         <br/>
-        <Icon name="database" color="yellow" size="big"/>   MongoDB &amp; Prisma 
+        <Icon name="database" color="yellow" size="big"/>   PSQL &amp; Prisma 
+        <br/>
+        <br/>
+        <Icon name="apple " color="yellow" size="big"/>   Swift
+        <br/>
+        <br/>
     </div>
       </Grid.Column>
     </Grid>
@@ -50,11 +54,9 @@ function About () {
 
 
 </Container>
+
         </>
     )
 }
 
 export default About
-
-
-   
