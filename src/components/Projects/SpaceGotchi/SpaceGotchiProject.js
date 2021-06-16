@@ -37,6 +37,7 @@ function SpaceGotchiProject() {
 
         </Grid>
 
+        <br/>
         <hr/>
         </>
     )

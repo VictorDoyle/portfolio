@@ -35,6 +35,7 @@ function CoeusProject() {
 
 
         </Grid>
+        <br/>
         <hr/>
 
         </>
