@@ -85,6 +85,11 @@ function Home () {
         <div ref={projectSectionRef}>
             <Projects/>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         {/* ENDSECTION */}
         <div ref={contactSectionRef}>
@@ -94,6 +99,9 @@ function Home () {
         <p>I'm seeking opportunities to work as a Software Engineer and build my experience further.</p>
 
         <p>I want to bring my high energy and passion of coding to the table as well as my diverse experience. </p>
+        <p>
+        I am passionate and eager about learning new things every day and applying them towards building applications. My high energy levels are often felt by my colleagues and they often utilize this as a team booster. I find inspiration in all things and always look for problems to fix, whether it is by deconstructing applications, breaking them or pushing them to their limits. I am never satisfied with simply finding ideas, but I find satisfaction in building them out to be what they should be and enjoying the final product.
+        </p>
 
         <p>I'm looking forward to solving more problems and finding innovative ways to build bigger and better applications.</p>
 
