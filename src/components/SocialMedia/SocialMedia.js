@@ -9,7 +9,7 @@ const SocialMedia = () => (
   {/* left sidebar social media icon list */}
   <List className="socialIconsContainer">
     <List.Item  className="socialMediaIcons">
-    <a href="https://www.linkedin.com/in/victor-doyle/">
+    <a href="https://www.linkedin.com/in/victor-doyle/" target="_blank">
       <List.Icon name='linkedin' size="big"/>
         </a>
     </List.Item>
@@ -20,13 +20,8 @@ const SocialMedia = () => (
     </List.Item>
 
     <List.Item className="socialMediaIcons">
-     <a href="https://github.com/VictorDoyle">
+     <a href="https://github.com/VictorDoyle" target="_blank">
       <List.Icon name='github square' size="big"/>
-        </a>
-    </List.Item>
-    <List.Item className="socialMediaIcons">
-        <a href="https://codepen.io/victordoyle/">
-      <List.Icon name='codepen' size="big"/>
         </a>
     </List.Item>
     <div className="verticalLineLeft"></div>

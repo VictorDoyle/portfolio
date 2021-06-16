@@ -10,7 +10,7 @@ function CoeusProject() {
             <Grid>
 
             <Grid.Column floated='left' width={4}>
-            <Header style={{color: "white"}}> Technologies:</Header>
+            <Header style={{color: "white"}} className="projectTechnologyHeader"> Technologies:</Header>
             <Icon name="react" color="yellow" size="big"/>
             <Icon name="js" color="yellow" size="big"/>
             <Icon name="html5" color="yellow" size="big"/>

@@ -150,6 +150,7 @@
         .worksTitle {
             padding-top: 15%;
             margin-left: 15%;
+            
         }
         
         .heroImage {
@@ -172,10 +173,12 @@
         
         .containerText {
             z-index: 10 !important;
+            color: black !important;
         }
         
         .contentTitle {
             font-size: 45px !important;
+            color: black !important;
         }
         
         .linkEndTitle {
@@ -185,11 +188,13 @@
         
         .contentDescription {
             font-size: 25px;
+            color: black !important;
         }
         
         .contentMiniDescription {
             font-size: 18px;
             line-height: 2;
+            color: black !important;
         }
         
         .contentLinks {
@@ -229,7 +234,7 @@
     
     /* SECTION: iPhones */
     
-    @media only screen and (min-device-width : 375px) and (max-width: 736px) {
+    @media only screen and /* (min-device-width : 375px) and */ (max-width: 736px) {
     
      
     
@@ -285,10 +290,12 @@
         
         .containerText {
             z-index: 10 !important;
+            color: black !important;
         }
         
         .contentTitle {
             font-size: 30px !important;
+            color: black !important;
         }
         
         .linkEndTitle {
@@ -298,11 +305,13 @@
         
         .contentDescription {
             font-size: 25px;
+            color: black !important;
         }
         
         .contentMiniDescription {
             font-size: 18px;
             line-height: 2;
+            color: black !important;
         }
         
         .contentLinks {

@@ -9,7 +9,7 @@ function FreelanceProject() {
             <Grid>
 
             <Grid.Column floated='left' width={4}>
-            <Header style={{color: "white"}}> Technologies:</Header>
+            <Header style={{color: "white"}} className="projectTechnologyHeader"> Technologies:</Header>
             <Icon name="react" color="yellow" size="big"/>
             <Icon name="database" color="yellow" size="big"/>
             <Icon name="js" color="yellow" size="big"/>
