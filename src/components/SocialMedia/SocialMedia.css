@@ -89,3 +89,15 @@
 .socialEmailText p:hover {
   color: #85d2f4;
 }
+
+
+@media (max-width: 576px) {  
+
+.socialIconsContainer {
+  display: none !important;
+}
+
+.socialEmailContainer {
+  display: none !important;
+}
+}

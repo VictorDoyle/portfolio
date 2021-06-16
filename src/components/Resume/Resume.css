@@ -25,3 +25,23 @@
 .ui.vertical.tabular.menu .item:hover {
     color: #2E9CCA !important;
 }
+
+@media (max-width: 576px) { 
+    .resumeSection {
+        padding-top: 700px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .aboutSection {
+    display: none !important;
+    }
+    
+ 
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+
+ }
+

@@ -10,3 +10,7 @@
 .navBarItem:hover {
     color: #2E9CCA  !important;
 }
+
+.footerSpace {
+    padding-bottom: 200px;
+}

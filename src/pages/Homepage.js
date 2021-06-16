@@ -94,7 +94,7 @@ function Home () {
         {/* ENDSECTION */}
         <div ref={contactSectionRef}>
 
-        <Container text className="resumeSection" > 
+        <Container text > 
         <Header > <h2 className="aboutHeader" id="section2Content" > Contact</h2><hr/></Header>
         <p>I'm seeking opportunities to work as a Software Engineer and build my experience further.</p>
 
@@ -118,6 +118,9 @@ function Home () {
         <p>
         <a href="mailto:victor-doyle@outlook.com" className="resumeLink" target="_blank"> Email Me</a>
         </p>
+        <div className="footerSpace">
+            
+        </div>
   
         </Container>
 
