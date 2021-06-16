@@ -8,8 +8,10 @@ import Projects from '../components/Projects/Projects'
 /* styling */
 import "../components/Navbar/Navbar.css"
 import About from '../components/About/About'
+import { useBaseTheme } from '../hooks'
 
 function Home () {
+    useBaseTheme();
     const aboutSectionRef = useRef(null);
     const resumeSectionRef = useRef(null);
     const projectSectionRef = useRef(null);
