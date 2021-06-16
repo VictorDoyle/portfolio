@@ -11,7 +11,7 @@ const Hero = () => (
     <Header className="heroText2"> Victor Doyle. </Header>
     <Header className="heroText3"> I Build Full Stack Applications. </Header>
     <p className="heroText1">
-    I'm a software engineer based in New York City, specializing in building and designing unique websites and applications.
+    I'm a software engineer based in New York City. I specialize in Front End Development, building and designing unique websites and applications. I am also fluent in Back End Development and am in the midst of learning Java and C++.
     </p>
     <a href="mailto:victor-doyle@outlook.com">
     <Button className="emailMeButton">
