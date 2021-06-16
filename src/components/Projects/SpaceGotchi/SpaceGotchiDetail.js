@@ -14,6 +14,12 @@ function SpaceGotchi () {
     
     return (
         <> 
+         <Link to={'/'}>
+         <h4 className="menuHeaderDark"> 
+         <Icon name="home" size="small"/>
+         Home
+         </h4> 
+        </Link>
         
      
         <div className="worksContent">

@@ -14,7 +14,7 @@
     
     .menuHeaderDark  {
         color: black ;
-        font-size: 25px;
+        font-size: 15px;
         float: right;
         margin-right: 300px;
         padding-top: 20px;
@@ -132,7 +132,7 @@
         
         .menuHeaderDark  {
             color: black ;
-            font-size: 25px;
+            font-size: 15px;
             float: right;
             margin-right: 80px;
             padding-top: 20px;
@@ -250,7 +250,7 @@
         
         .menuHeaderDark  {
             color: black ;
-            font-size: 25px;
+            font-size: 10px;
             float: right;
             margin-right: 80px;
             padding-top: 20px;
