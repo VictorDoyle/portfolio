@@ -6,6 +6,7 @@ import FlixAlwaysDetail from '../components/Projects/FlixAlways/FlixAlwaysDetail
 import CoeusDetail from '../components/Projects/Coeus/CoeusDetail';
 import Space22Detail from '../components/Projects/Space22/Space22Detail';
 import SpaceGotchiDetail from '../components/Projects/SpaceGotchi/SpaceGotchiDetail';
+import FreelanceDetail from '../components/Projects/FreelanceWebsites/FreelanceDetail';
 export default (
     <Switch>
         {/* APP ROUTES */}
@@ -16,5 +17,6 @@ export default (
         <Route path='/coeus' component={ CoeusDetail}/>
         <Route path='/space22' component={ Space22Detail}/>
         <Route path='/spacegotchi' component={ SpaceGotchiDetail }/>
+        <Route path='/freelance-work' component= {FreelanceDetail } />
     </Switch>
 )
