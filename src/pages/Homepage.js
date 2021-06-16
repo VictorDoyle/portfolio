@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import SocialMedia from '../components/SocialMedia/SocialMedia'
 import Hero from '../components/Hero/Hero'
-import { Icon, Menu  } from 'semantic-ui-react'
+import { Icon, Menu, Container, Header,   } from 'semantic-ui-react'
 import Resume from '../components/Resume/Resume'
 import Projects from '../components/Projects/Projects'
 /* styling */
@@ -87,6 +87,34 @@ function Home () {
         </div>
 
         {/* ENDSECTION */}
+        <div ref={contactSectionRef}>
+
+        <Container text className="resumeSection" > 
+        <Header > <h2 className="aboutHeader" id="section2Content" > Contact</h2><hr/></Header>
+        <p>I'm seeking opportunities to work as a Software Engineer and build my experience further.</p>
+
+        <p>I want to bring my high energy and passion of coding to the table as well as my diverse experience. </p>
+
+        <p>I'm looking forward to solving more problems and finding innovative ways to build bigger and better applications.</p>
+
+        <p> Below Is My Most Recent Resume And Some Contact Info:</p>
+
+        <p>
+        <a href="https://drive.google.com/file/d/1kWL_8F19Pd2bLhBnS8kPAW6CvEsXUrDO/view?usp=sharing" className="resumeLink" target="_blank"> My Resume (pdf)</a>
+        </p>
+
+        <p>
+        <a href="https://www.linkedin.com/in/victor-doyle/" className="resumeLink" target="_blank"> My LinkedIn</a>
+        </p>
+
+        <p>
+        <a href="mailto:victor-doyle@outlook.com" className="resumeLink" target="_blank"> Email Me</a>
+        </p>
+  
+        </Container>
+
+      
+        </div>
         </>
     )
 }
