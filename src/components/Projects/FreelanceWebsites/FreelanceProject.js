@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Header, Grid, Icon, Menu,Divider } from 'semantic-ui-react'
-//import freelanceWebImg1 from "./freelanceWebImg1.jpg"
+import freelanceWebImg1 from "./luxuryNYCRealEstateWorkMain.jpg"
 import { Link } from 'react-router-dom'
 function FreelanceProject() {
     return(
@@ -32,7 +32,7 @@ function FreelanceProject() {
         <Grid>
 
         <Grid.Column width={16}>
-            {/* <Image src={freelanceWebImg1} size="large" style={{borderRadius: "5%"}} centered/> */}
+            <Image src={freelanceWebImg1} size="large" style={{borderRadius: "5%"}} centered/>
         </Grid.Column>
 
 

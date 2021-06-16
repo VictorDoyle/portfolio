@@ -6,9 +6,7 @@ import "./FreelanceDetail.css"
 import { useLightBody } from "../../../hooks"
 
 /*  images  */
-/* import flixAlwaysHome from "./flixalways-homepage.jpg"
-import flixAlwaysMovie from "./flixalways-moviedetail.jpg"
- */
+import freelanceWebImg1 from "./luxuryNYCRealEstateWorkMain.jpg"
 
 function FlixAlwaysDetail () {
     useLightBody()
@@ -22,12 +20,11 @@ function FlixAlwaysDetail () {
         <p className="projectDescription"> Examples of My Work As A Freelancer</p>
         </div>
 
-        {/* <Image className="coeusHeroImage" src={flixAlwaysHome}/> */}
+         <Image className="coeusHeroImage" src={freelanceWebImg1}/> 
         </div>
-
        {/*  project intro */}
     <Container text className="containerContent">
-    <Header className="contentTitle" as='h2'>What Is FlixAlways</Header>
+    <Header className="contentTitle" as='h2'>Front End Skills</Header>
         
         <p className="contentDescription"> 
         FlixAlways is a Full Stack Application built with a React.Js frontend and a Node.Js backend, with the addition of Bootstrap and Css for Styling, Framer Motion for Animations, GraphQL, PostgreSQL, Prisma ORM for Data relations and Database.
